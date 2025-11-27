@@ -12,8 +12,7 @@ app = Flask(__name__)
 # 웹캠 인덱스
 WEBCAM_INDEX = 0
 
-# RTSP 주소
-#RTSP_URL = "rtsp://sesac1234:sesac1234@172.16.8.25/stream1"
+# RTSP 주소 or 파일 등
 RTSP_URL = "cam01.mp4"
 
 # auto / webcam / rtsp
