@@ -151,7 +151,7 @@ docker commit ros2_sdc_container ros2_sdc_fixed:latest
 docker ps -a
 ```
 
-- STATUS가 `Exited`면 그냥 꺼진 거야.
+- STATUS가 `Exited`면 그냥 꺼진 것
    → 재시작 가능:
 
   ```
