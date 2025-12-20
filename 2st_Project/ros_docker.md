@@ -164,7 +164,7 @@ docker ps -a
 
 ###  2️⃣ 백업 이미지로 새 컨테이너 다시 생성
 
-`ros2_sdc_fixed` 이미지를 이용해 새 컨테이너 만들면 완벽 복원돼.
+`ros2_sdc_fixed` 이미지를 이용해 새 컨테이너 만들면 완벽 복원
 
 ```
 docker run -it --net=host --gpus all \
